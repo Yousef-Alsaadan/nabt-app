@@ -224,17 +224,17 @@ function App() {
       </div>
 
       {/*footer section */}
-      <div className="bg-[#212121] relative grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-12 text-[#FAFAFA] min-h-screen ibm-font overflow-hidden">
-        <div className="flex items-center md:static absolute -top-40 -right-20">
+      <div className="bg-[#212121] relative grid lg:grid-cols-3 grid-cols-1 lg:gap-0 gap-12 text-[#FAFAFA] min-h-screen ibm-font overflow-hidden pb-8">
+        <div className="flex items-center lg:static absolute -top-40 -right-20">
           <img src={FooterImg} className="h-[681px]" />
         </div>
-        <div className="md:col-span-2">
-          <div className="flex-col flex h-full justify-center md:items-end items-start md:pt-0 pt-96">
-            <h1 className="font-normal md:text-8xl text-5xl mb-8 w-full md:text-start text-center">
+        <div className="lg:col-span-2 lg:pt-0 pt-40">
+          <div className="flex-col flex h-full justify-center lg:items-end items-start lg:pt-0 pt-96">
+            <h1 className="font-normal md:text-8xl text-5xl mb-8 w-full lg:text-start text-center">
               لماذا تختار <span className="font-bold">ساكورا</span>؟
             </h1>
-            <div className="md:w-[350px] w-auto container mx-auto flex justify-end">
-              <ul className="md:p-0 p-4">
+            <div className="lg:w-[500px] w-auto">
+              <ul className="lg:p-0 p-4">
                 <li className="border-r-[3px] font-normal text-3xl border-[#AD9A4D] pr-5 mt-9">
                   فرص لا تُفوَّت
                 </li>
