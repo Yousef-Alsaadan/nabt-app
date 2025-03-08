@@ -3,10 +3,15 @@ import React, { useState } from "react";
 const NavBar: React.FC = () => {
   const [mobileBtn, setMobileBtn] = useState<string>("hidden");
 
-  const handleClick = () =>
-    setMobileBtn(
-      "block absolute top-0 left-0 right-0 h-screen place-content-center bg-[#DEDEDE]"
-    );
+  const handleClick = () => {
+    if (mobileBtn == "hidden") {
+      setMobileBtn(
+        "block absolute top-0 left-0 right-0 h-screen place-content-center bg-[#DEDEDE]"
+      );
+    } else {
+      setMobileBtn("hidden");
+    }
+  };
   return (
     <div className="absolute w-full">
       <div className="navbar container mx-auto px-4 justify-between ibm-font">
